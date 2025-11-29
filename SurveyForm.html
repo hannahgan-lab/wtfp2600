@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmers Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="surveycss.css">
+</head>
+<body>
+    <div class="header">
+            <img src="wtflogo.png" alt="logo">
+    <h1 id=title>GUEST SURVEY FORM</h1>
+    <p id="description">Thank you for supporting the Baguio music scene! Help us improve our events by answering the survey below:</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="yourmail@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="age">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Please indicate your role: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="Guest">Guest</option>
+                <option value="Artist">Artist</option>
+                <option value="Merchant">Merchant</option>
+                <option value="Staff">Staff</option>
+                <option value="Other">Other</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="satisfactory-level"><b>Please rate your satisfactory level in experiencing the event:</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="very-dissatisfied" checked> Very Dissatisfied<br>
+            <input type="radio" class="radio-inline" name="gender" value="Dissatisfied"> Dissatisfied<br>
+            <input type="radio" class="radio-inline" name="gender" value="Neutral"> Neutral<br>
+            <input type="radio" class="radio-inline" name="gender" value="Satisfied"> Satisfied<br>
+            <input type="radio" class="radio-inline" name="gender" value="very-Satisfied"> Very Satisfied
+          </div>
+          <div id="button-area"><br>
+            <label id="Q-1"><b>Rate Stage setup & tech support: </b></label><br>
+            <input type="checkbox" name="good" value="gud" checked> Good<br>
+            <input type="checkbox" name="bad" value="bad"> Bad<br>
+            <label id="Q-2"><b>Communication with organizers: </b></label><br>
+            <input type="checkbox" name="good" value="gud"> Good<br>
+            <input type="checkbox" name="bad" value="bad"> Bad<br>
+            <label id="Q-3"><b>Booth/Stall setup & location: </b></label><br>
+            <input type="checkbox" name="good" value="gud" checked> Good<br>
+            <input type="checkbox" name="bad" value="bad"> Bad<br>
+            <label id="Q-4"><b>Sales opportunities Satisfied?: </b></label><br>
+            <input type="checkbox" name="yes" value="ye" checked> Yes<br>
+            <input type="checkbox" name="no" value="nu"> No<br>
+            <label id="Q-5"><b>Perform/Join us again?: </b></label><br>
+            <input type="checkbox" name="yes" value="ye" checked> Yes<br>
+            <input type="checkbox" name="no" value="nu"> No
+          </div>
+
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>Did you feel supported by the staff?:</b></label><br>
+            <input type="checkbox" name="yes" value="ye" checked> Yes<br>
+            <input type="checkbox" name="no" value="nu"> No <br>
+          </div>
+
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Would you attend/participate again?: </strong></label><br>
+            <select id="dropdown" name="ques2" class="form"><br><br>
+                <option value="DY">Definitely, Yes</option>
+                <option value="PY">Probably, Yes</option>
+                <option value="NS">Not Sure</option>
+                <option value="PN">Probably, No</option>
+                <option value="DN">Definitely, No</option>
+            </select>
+         </div>
+
+         <div id="button-area"><br><br>
+            <label id="os-label"><b>Would you recommend WTFP to others?:</b></label><br>
+            <input type="checkbox" name="yes" value="ye" checked> Yes<br>
+            <input type="checkbox" name="no" value="nu"> No <br>
+          </div>
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+            <a href="mailto:wtfp2600@gmal.com"></a>
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>
